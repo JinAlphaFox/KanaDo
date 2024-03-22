@@ -1,0 +1,289 @@
+/*html{
+    width: 100%;
+    height: 100%;
+}*/
+body {
+  /*background-color: rgb(187, 135, 192);*/
+  background-color: #55172d;
+  max-width: 1600px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  color: rgb(255, 241, 230);
+  font-family: "Alegreya", serif;
+}
+
+main {
+  font-family: "Salsa", cursive;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.6em;
+  font-variant: small-caps;
+}
+
+p, #erreurs {
+  font-size: 1.5em;
+}
+
+#rules {
+  width: 1560px;
+  border-radius: 50px 50px 0px 0px;
+  background-color: #aa868e;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+#result {
+  width: 1560px;
+  border-radius: 0px 0px 50px 50px;
+  background-color: #aa868e;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+#buttons {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+  padding: 10px 50px 10px 50px;
+}
+
+input[type="radio"]:checked+label {
+  background-color: #55172d;
+  color: whitesmoke;
+}
+
+img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  top: -420px;
+  border: 3px solid rgba(26, 19, 27, 0.5);
+}
+
+#saisie {
+  display: inline-block;
+  position: relative;
+  top: 85px;
+  left: -307px;
+  z-index: 5;
+  font-size: 8em;
+  color: black;
+  width: 290px;
+  height: 290px;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  border: none;
+}
+
+#valider {
+  z-index: 5;
+  display: inline-block;
+  position: relative;
+  top: 85px;
+  left: -30px;
+
+}
+
+button:hover {
+  background-color: #e3d5d8;
+}
+
+button:active {
+  background-color: #55172d;
+  color: whitesmoke;
+}
+
+#flag {
+  display: inline-block;
+  position: relative;
+  /*top: -850px;*/
+  top: 70px;
+  left: 270px;
+  z-index: 5;
+  font-size: 8em;
+  color: black;
+}
+
+#timer {
+  z-index: 5;
+  position: relative;
+  top: 165px;
+  left: 55px;
+  font-size: 4em;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  visibility: hidden;
+}
+
+#fight {
+  height: 1060px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px 50px 10px 50px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+  background-color: whitesmoke;
+}
+
+footer h3 {
+  text-align: right;
+  font-size: 1.1em;
+  background: linear-gradient(90deg, #55172d, #aa868e);
+  padding: 5px 20px 5px 10px;
+  font-family: "Salsa", cursive;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    width: 1000px;
+  }
+
+  button {
+    padding: 5px 25px 5px 25px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 1.2em;
+  }
+  
+  #rules,
+  #result {
+    width: 960px;
+    padding: 20px;
+  }
+
+  img {
+    top: -280px;
+  }
+
+  #saisie {
+    top: 35px;
+    left: -178px;
+    width: 170px;
+    height: 170px;
+    font-size: 5em;
+  }
+
+  #valider{
+    top: 60px;
+    left: -30px;
+  }
+
+  #flag {
+    font-size: 5em;
+    top: 25px;
+    left: 177px;
+  }
+
+  #fight {
+    height: 625px;
+  }
+
+}
+
+@media screen and (max-width : 1000px) {
+  body {
+    width: 330px;
+  }
+  
+  h1{
+    font-size: 3em;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+  
+  label{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 1em;
+    padding: 2px 5px 2px 5px;
+  }
+
+  button {
+    padding: 2px 5px 2px 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 1em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  #rules,
+  #result{
+    width: 320px;
+    padding: 5px;
+  }
+
+  img {
+    top: -65px;
+  }
+
+  #saisie {
+    top: 20px;
+    left: -34px;
+    width: 50px;
+    height: 50px;
+    font-size: 1em;
+  }
+
+  #valider{
+    top: 10px;
+    left: 0px;
+  }
+
+  #flag {
+    font-size: 2em;
+    margin: 0px;
+    top: 22px;
+    left: 42px;
+  }
+
+  #timer{
+    top: 40px;
+    left: -10px;
+    font-size: 1em;
+    
+  }
+
+  #fight {
+    height: 206px;
+    width: 330px;
+  }
+}
