@@ -39,7 +39,29 @@
         Pour réussir, saisissez sur votre <strong title="Drapeau">Sashimono</strong> la syllabe correspondante au
         symbole se trouvant sur le sien. Puis <strong>Frappez !</strong><br>Vous n'avez le droit qu'à trois erreurs,
         après tout, un samouraï possède trois cœurs.<br>Let's fight!</p>
-      <p id="pv">Cœurs : ❤️❤️❤️</p>
+        <div>
+          <label for="check_debutant" id="label_debutant">Débutant ?</label>
+          <input type="checkbox" id="check_debutant" name="check_debutant">
+          <div id="div_debutant">
+            <span>
+              <input type="checkbox" id="check_apprentissage" name="check_apprentissage">
+              <label for="check_apprentissage" id="label_apprentissage">Apprentissage</label>
+              <span class="inter_debutant">Cliquez sur ce bouton si vous ne souhaitez pas mélanger les caractères à chaque passage de niveau.</span>
+            </span>
+            <span>
+              <input type="checkbox" id="check_coeursPlus" name="check_coeursPlus">
+              <label for="check_coeursPlus" id="label_coeursPlus">+ de ❤️</label>
+              <span class="inter_debutant">Cliquez sur ce bouton si vous souhaitez regagner un cœur à chaque passage de niveau, maximum 3.</span>
+            </span>
+            <span>
+              <input type="checkbox" id="check_famille" name="check_famille">
+              <label for="check_famille" id="label_famille">Famille</label>
+              <span class="inter_debutant">Cliquez sur ce bouton pour faire apparaître la famille de chaque caractère proposé.</span>
+            </span>            
+            <span id="famille"></span>
+          </div>
+        </div>
+        <p id="pv">Cœurs : ❤️❤️❤️</p>
     </section>
 
     <section id="fight">
