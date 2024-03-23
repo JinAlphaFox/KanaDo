@@ -63,7 +63,8 @@ p, #erreurs {
   justify-content: space-around;
 }
 
-input[type="radio"] {
+input[type="radio"],
+input[type="checkbox"] {
   display: none;
 }
 
@@ -76,7 +77,27 @@ label {
   padding: 10px 50px 10px 50px;
 }
 
-input[type="radio"]:checked+label {
+#div_debutant {
+  padding: 50px;
+  display: none;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#div_debutant label,
+#label_debutant{
+  font-size: 1em;
+  margin-right: 20px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 5px 25px 5px 25px;
+}
+
+#check_debutant:checked+div {
+  display:flex;
+}
+
+input[type="radio"]:checked+label,
+input[type="checkbox"]:checked+label {
   background-color: #55172d;
   color: whitesmoke;
 }
@@ -113,7 +134,8 @@ img {
 
 }
 
-button:hover {
+button:hover,
+label:hover {
   background-color: #e3d5d8;
 }
 
@@ -285,5 +307,10 @@ footer h3 {
   #fight {
     height: 206px;
     width: 330px;
+  }
+
+  .inter_debutant {
+    display: block;
+    margin-top: 10px;
   }
 }
