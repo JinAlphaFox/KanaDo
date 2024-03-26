@@ -170,7 +170,7 @@ function affichageKanas(affichage, table, type, cheat3) {
  */
 function verify(input, kana, type, cheat1, cheat2, cheat3) {
   let divErreurs = document.getElementById("erreurs");
-  let scoreCheat = cheat1 + cheat2 + cheat3;
+  let scoreCheat = (cheat1 + cheat2 + cheat3) * 2;
 
   if (input.value.toLowerCase() === kana[compteur].romaji) {
     sonWin.play();
