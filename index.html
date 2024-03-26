@@ -39,29 +39,124 @@
         Pour réussir, saisissez sur votre <strong title="Drapeau">Sashimono</strong> la syllabe correspondante au
         symbole se trouvant sur le sien. Puis <strong>Frappez !</strong><br>Vous n'avez le droit qu'à trois erreurs,
         après tout, un samouraï possède trois cœurs.<br>Let's fight!</p>
-        <div>
-          <label for="check_debutant" id="label_debutant">Débutant ?</label>
-          <input type="checkbox" id="check_debutant" name="check_debutant">
-          <div id="div_debutant">
-            <span>
-              <input type="checkbox" id="check_apprentissage" name="check_apprentissage">
-              <label for="check_apprentissage" id="label_apprentissage">Apprentissage</label>
-              <span class="inter_debutant">Cliquez sur ce bouton si vous ne souhaitez pas mélanger les caractères à chaque passage de niveau.</span>
-            </span>
-            <span>
-              <input type="checkbox" id="check_coeursPlus" name="check_coeursPlus">
-              <label for="check_coeursPlus" id="label_coeursPlus">+ de ❤️</label>
-              <span class="inter_debutant">Cliquez sur ce bouton si vous souhaitez regagner un cœur à chaque passage de niveau, maximum 3.</span>
-            </span>
-            <span>
-              <input type="checkbox" id="check_famille" name="check_famille">
-              <label for="check_famille" id="label_famille">Famille</label>
-              <span class="inter_debutant">Cliquez sur ce bouton pour faire apparaître la famille de chaque caractère proposé.</span>
-            </span>            
-            <span id="famille"></span>
-          </div>
+      <div>
+        <label for="check_objectifs" id="label_objectifs">Objectifs</label>
+        <input type="checkbox" id="check_objectifs" name="check_objectifs">
+        <div id="div_objectifs">
+          <span>
+            <span class="inter_objectif objectifA">a : 0 / 3</span> | <span class="inter_objectif objectifI">i : 0 /
+              3</span> | <span class="inter_objectif objectifU">u : 0 / 3</span> | <span
+              class="inter_objectif objectifE">e : 0 / 3</span> | <span class="inter_objectif objectifO">o : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifKa">ka : 0 / 3</span> | <span class="inter_objectif objectifKi">ki : 0 /
+              3</span> | <span class="inter_objectif objectifKu">ku : 0 / 3</span> | <span
+              class="inter_objectif objectifKe">ke : 0 / 3</span> | <span class="inter_objectif objectifKo">ko : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifSa">sa : 0 / 3</span> | <span class="inter_objectif objectifShi">shi : 0
+              / 3</span> | <span class="inter_objectif objectifSu">su : 0 / 3</span> | <span
+              class="inter_objectif objectifSe">se : 0 / 3</span> | <span class="inter_objectif objectifSo">so : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifTa">ta : 0 / 3</span> | <span class="inter_objectif objectifChi">chi : 0
+              / 3</span> | <span class="inter_objectif objectifTsu">tsu : 0 / 3</span> | <span
+              class="inter_objectif objectifTe">te : 0 / 3</span> | <span class="inter_objectif objectifTo">to : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifNa">na : 0 / 3</span> | <span class="inter_objectif objectifNi">ni : 0 /
+              3</span> | <span class="inter_objectif objectifNu">nu : 0 / 3</span> | <span
+              class="inter_objectif objectifNe">ne : 0 / 3</span> | <span class="inter_objectif objectifNo">no : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifHa">ha : 0 / 3</span> | <span class="inter_objectif objectifHi">hi : 0 /
+              3</span> | <span class="inter_objectif objectifFu">fu : 0 / 3</span> | <span
+              class="inter_objectif objectifHe">he : 0 / 3</span> | <span class="inter_objectif objectifHo">ho : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifMa">ma : 0 / 3</span> | <span class="inter_objectif objectifMi">mi : 0 /
+              3</span> | <span class="inter_objectif objectifMu">mu : 0 / 3</span> | <span
+              class="inter_objectif objectifMe">me : 0 / 3</span> | <span class="inter_objectif objectifMo">mo : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifRa">ra : 0 / 3</span> | <span class="inter_objectif objectifRi">ri : 0 /
+              3</span> | <span class="inter_objectif objectifRu">ru : 0 / 3</span> | <span
+              class="inter_objectif objectifRe">re : 0 / 3</span> | <span class="inter_objectif objectifRo">ro : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifYa">ya : 0 / 3</span> | <span class="inter_objectif objectifYu">yu : 0 /
+              3</span> | <span class="inter_objectif objectifYo">yo : 0 / 3</span> | <span
+              class="inter_objectif objectifWa">wa : 0 / 3</span> | <span class="inter_objectif objectifWo">wo : 0 /
+              3</span> | <span class="inter_objectif objectifN">n : 0 / 3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifGa">Ga : 0 / 3</span> | <span class="inter_objectif objectifGi">Gi : 0 /
+              3</span> | <span class="inter_objectif objectifGu">Gu : 0 / 3</span> | <span
+              class="inter_objectif objectifGe">Ge : 0 / 3</span> | <span class="inter_objectif objectifGo">Go : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifZa">Za : 0 / 3</span> | <span class="inter_objectif objectifJi">Ji : 0 /
+              3</span> | <span class="inter_objectif objectifZu">Zu : 0 / 3</span> | <span
+              class="inter_objectif objectifZe">Ze : 0 / 3</span> | <span class="inter_objectif objectifZo">Zo : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifDa">Da : 0 / 3</span> | <span class="inter_objectif objectifDi">Ji : 0 /
+              3</span> | <span class="inter_objectif objectifDu">Zu : 0 / 3</span> | <span
+              class="inter_objectif objectifDe">De : 0 / 3</span> | <span class="inter_objectif objectifDo">Do : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifBa">Ba : 0 / 3</span> | <span class="inter_objectif objectifBi">Bi : 0 /
+              3</span> | <span class="inter_objectif objectifBu">Bu : 0 / 3</span> | <span
+              class="inter_objectif objectifBe">Be : 0 / 3</span> | <span class="inter_objectif objectifBo">Bo : 0 /
+              3</span>
+          </span>
+          <span>
+            <span class="inter_objectif objectifPa">Pa : 0 / 3</span> | <span class="inter_objectif objectifPi">Pi : 0 /
+              3</span> | <span class="inter_objectif objectifPu">Pu : 0 / 3</span> | <span
+              class="inter_objectif objectifPe">Pe : 0 / 3</span> | <span class="inter_objectif objectifPo">Po : 0 /
+              3</span>
+          </span>
         </div>
-        <p id="pv">Cœurs : ❤️❤️❤️</p>
+        <label for="check_debutant" id="label_debutant">Options</label>
+        <input type="checkbox" id="check_debutant" name="check_debutant">
+        <div id="div_debutant">
+          <span class="inter_debutant">
+            <label for="volume">Volume</label>
+            <input type="range" id="volume" name="volume" min="0" max="10" />
+          </span>
+          <span>
+            <input type="checkbox" id="check_apprentissage" name="check_apprentissage">
+            <label for="check_apprentissage" id="label_apprentissage">Apprentissage</label>
+            <span class="inter_debutant">Cliquez sur ce bouton si vous ne souhaitez pas mélanger les caractères à chaque
+              passage de niveau.</span>
+          </span>
+          <span>
+            <input type="checkbox" id="check_coeursPlus" name="check_coeursPlus">
+            <label for="check_coeursPlus" id="label_coeursPlus">+ de ❤️</label>
+            <span class="inter_debutant">Cliquez sur ce bouton si vous souhaitez regagner un cœur à chaque passage de
+              niveau, maximum 3.</span>
+          </span>
+          <span>
+            <input type="checkbox" id="check_famille" name="check_famille">
+            <label for="check_famille" id="label_famille">Famille</label>
+            <span class="inter_debutant">Cliquez sur ce bouton pour faire apparaître la famille de chaque caractère
+              proposé.</span>
+          </span>
+          <span id="famille"></span>
+        </div>
+      </div>
+      <p id="pv">Cœurs : ❤️❤️❤️</p>
     </section>
 
     <section id="fight">

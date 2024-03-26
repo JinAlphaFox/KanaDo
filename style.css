@@ -32,7 +32,8 @@ h4 {
   font-variant: small-caps;
 }
 
-p, #erreurs {
+p,
+#erreurs {
   font-size: 1.5em;
 }
 
@@ -77,7 +78,8 @@ label {
   padding: 10px 50px 10px 50px;
 }
 
-#div_debutant {
+#div_debutant,
+#div_objectifs {
   padding: 50px;
   display: none;
   flex-direction: column;
@@ -85,15 +87,17 @@ label {
 }
 
 #div_debutant label,
-#label_debutant{
+#label_debutant,
+#label_objectifs {
   font-size: 1em;
   margin-right: 20px;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
   padding: 5px 25px 5px 25px;
 }
 
-#check_debutant:checked+div {
-  display:flex;
+#check_debutant:checked+div,
+#check_objectifs:checked+div {
+  display: flex;
 }
 
 input[type="radio"]:checked+label,
@@ -201,7 +205,7 @@ footer h3 {
     box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
     font-size: 1.2em;
   }
-  
+
   #rules,
   #result {
     width: 960px;
@@ -220,7 +224,7 @@ footer h3 {
     font-size: 5em;
   }
 
-  #valider{
+  #valider {
     top: 60px;
     left: -30px;
   }
@@ -241,16 +245,16 @@ footer h3 {
   body {
     width: 330px;
   }
-  
-  h1{
+
+  h1 {
     font-size: 3em;
   }
 
-  h2{
+  h2 {
     font-size: 2em;
   }
-  
-  label{
+
+  label {
     border: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
     font-size: 1em;
@@ -263,12 +267,13 @@ footer h3 {
     font-size: 1em;
   }
 
-  p, #erreurs{
+  p,
+  #erreurs {
     font-size: 1em;
   }
 
   #rules,
-  #result{
+  #result {
     width: 320px;
     padding: 5px;
   }
@@ -285,7 +290,7 @@ footer h3 {
     font-size: 1em;
   }
 
-  #valider{
+  #valider {
     top: 10px;
     left: 0px;
   }
@@ -297,11 +302,11 @@ footer h3 {
     left: 42px;
   }
 
-  #timer{
+  #timer {
     top: 40px;
     left: -10px;
     font-size: 1em;
-    
+
   }
 
   #fight {
@@ -312,5 +317,9 @@ footer h3 {
   .inter_debutant {
     display: block;
     margin-top: 10px;
+  }
+
+  #volume {
+    margin-top: 25px;
   }
 }
