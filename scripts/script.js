@@ -403,6 +403,221 @@ function majObjectifs() {
   spanObjectifPu.innerHTML = "pu : " + lettrePu.compteur + " / 3";
   spanObjectifPe.innerHTML = "pe : " + lettrePe.compteur + " / 3";
   spanObjectifPo.innerHTML = "po : " + lettrePo.compteur + " / 3";
+
+  if(lettreA.compteur === 3) {
+    spanObjectifA.style.color = "green";
+  }
+  if(lettreI.compteur === 3){
+    spanObjectifI.style.color = "green";
+  }
+  if(lettreU.compteur === 3) {
+    spanObjectifU.style.color = "green";
+  }
+  if(lettreE.compteur === 3) {
+    spanObjectifE.style.color = "green";
+  }
+  if(lettreO.compteur === 3) {
+    spanObjectifO.style.color = "green";
+  }
+  if(lettreKa.compteur === 3) {
+    spanObjectifKa.style.color = "green";
+  }
+  if(lettreKi.compteur === 3) {
+    spanObjectifKi.style.color = "green";
+  }
+  if(lettreKu.compteur === 3) {
+    spanObjectifKu.style.color = "green";
+  }
+  if(lettreKe.compteur === 3) {
+    spanObjectifKe.style.color = "green";
+  }
+  if(lettreKo.compteur === 3) {
+    spanObjectifKo.style.color = "green";
+  }
+  if(lettreSa.compteur === 3) {
+    spanObjectifSa.style.color = "green";
+  }
+  if(lettreSi.compteur === 3) {
+    spanObjectifShi.style.color = "green";
+  }
+  if(lettreSu.compteur === 3) {
+    spanObjectifSu.style.color = "green";
+  }
+  if(lettreSe.compteur === 3) {
+    spanObjectifSe.style.color = "green";
+  }
+  if(lettreSo.compteur === 3) {
+    spanObjectifSo.style.color = "green";
+  }
+  if(lettreTa.compteur === 3) {
+    spanObjectifTa.style.color = "green";
+  }
+  if(lettreTi.compteur === 3) {
+    spanObjectifChi.style.color = "green";
+  }
+  if(lettreTu.compteur === 3) {
+    spanObjectifTsu.style.color = "green";
+  }
+  if(lettreTe.compteur === 3) {
+    spanObjectifTe.style.color = "green";
+  }
+  if(lettreTo.compteur === 3) {
+    spanObjectifTo.style.color = "green";
+  }
+  if(lettreNa.compteur === 3) {
+    spanObjectifNa.style.color = "green";
+  }
+  if(lettreNi.compteur === 3) {
+    spanObjectifNi.style.color = "green";
+  }
+  if(lettreNu.compteur === 3) {
+    spanObjectifNu.style.color = "green";
+  }
+  if(lettreNe.compteur === 3) {
+    spanObjectifNe.style.color = "green";
+  }
+  if(lettreNo.compteur === 3) {
+    spanObjectifNo.style.color = "green";
+  }
+  if(lettreHa.compteur === 3) {
+    spanObjectifHa.style.color = "green";
+  }
+  if(lettreHi.compteur === 3) {
+    spanObjectifHi.style.color = "green";
+  }
+  if(lettreHu.compteur === 3) {
+    spanObjectifFu.style.color = "green";
+  }
+  if(lettreHe.compteur === 3) {
+    spanObjectifHe.style.color = "green";
+  }
+  if(lettreHo.compteur === 3) {
+    spanObjectifHo.style.color = "green";
+  }
+  if(lettreMa.compteur === 3) {
+    spanObjectifMa.style.color = "green";
+  }
+  if(lettreMi.compteur === 3) {
+    spanObjectifMi.style.color = "green";
+  }
+  if(lettreMu.compteur === 3) {
+    spanObjectifMu.style.color = "green";
+  }
+  if(lettreMe.compteur === 3) {
+    spanObjectifMe.style.color = "green";
+  }
+  if(lettreMo.compteur === 3) {
+    spanObjectifMo.style.color = "green";
+  }
+  if(lettreRa.compteur === 3) {
+    spanObjectifRa.style.color = "green";
+  }
+  if(lettreRi.compteur === 3) {
+    spanObjectifRi.style.color = "green";
+  }
+  if(lettreRu.compteur === 3) {
+    spanObjectifRu.style.color = "green";
+  }
+  if(lettreRe.compteur === 3) {
+    spanObjectifRe.style.color = "green";
+  }
+  if(lettreRo.compteur === 3) {
+    spanObjectifRo.style.color = "green";
+  }
+  if(lettreYa.compteur === 3) {
+    spanObjectifYa.style.color = "green";
+  }
+  if(lettreYu.compteur === 3) {
+    spanObjectifYu.style.color = "green";
+  }
+  if(lettreYo.compteur === 3) {
+    spanObjectifYo.style.color = "green";
+  }
+  if(lettreWa.compteur === 3) {
+    spanObjectifWa.style.color = "green";
+  }
+  if(lettreWo.compteur === 3) {
+    spanObjectifWo.style.color = "green";
+  }
+  if(lettreN.compteur === 3) {
+    spanObjectifN.style.color = "green";
+  }
+  if(lettreGa.compteur === 3) {
+    spanObjectifGa.style.color = "green";
+  }
+  if(lettreGi.compteur === 3) {
+    spanObjectifGi.style.color = "green";
+  }
+  if(lettreGu.compteur === 3) {
+    spanObjectifGu.style.color = "green";
+  }
+  if(lettreGe.compteur === 3) {
+    spanObjectifGe.style.color = "green";
+  }
+  if(lettreGo.compteur === 3) {
+    spanObjectifGo.style.color = "green";
+  }
+  if(lettreZa.compteur === 3) {
+    spanObjectifZa.style.color = "green";
+  }
+  if(lettreZi.compteur === 3) {
+    spanObjectifJi.style.color = "green";
+  }
+  if(lettreZu.compteur === 3) {
+    spanObjectifZu.style.color = "green";
+  }
+  if(lettreZe.compteur === 3) {
+    spanObjectifZe.style.color = "green";
+  }
+  if(lettreZo.compteur === 3) {
+    spanObjectifZo.style.color = "green";
+  }
+  if(lettreDa.compteur === 3) {
+    spanObjectifDa.style.color = "green";
+  }
+  if(lettreDi.compteur === 3) {
+    spanObjectifDi.style.color = "green";
+  }
+  if(lettreDu.compteur === 3) {
+    spanObjectifDu.style.color = "green";
+  }
+  if(lettreDe.compteur === 3) {
+    spanObjectifDe.style.color = "green";
+  }
+  if(lettreDo.compteur === 3) {
+    spanObjectifDo.style.color = "green";
+  }
+  if(lettreBa.compteur === 3) {
+    spanObjectifBa.style.color = "green";
+  }
+  if(lettreBi.compteur === 3) {
+    spanObjectifBi.style.color = "green";
+  }
+  if(lettreBu.compteur === 3) {
+    spanObjectifBu.style.color = "green";
+  }
+  if(lettreBe.compteur === 3) {
+    spanObjectifBe.style.color = "green";
+  }
+  if(lettreBo.compteur === 3) {
+    spanObjectifBo.style.color = "green";
+  }
+  if(lettrePa.compteur === 3) {
+    spanObjectifPa.style.color = "green";
+  }
+  if(lettrePi.compteur === 3) {
+    spanObjectifPi.style.color = "green";
+  }
+  if(lettrePu.compteur === 3) {
+    spanObjectifPu.style.color = "green";
+  }
+  if(lettrePe.compteur === 3) {
+    spanObjectifPe.style.color = "green";
+  }
+  if(lettrePo.compteur === 3) {
+    spanObjectifPo.style.color = "green";
+  }
+
 }
 
 function jouons(tableauType, drapeau, btnValider, saisiePerso, triche1, triche2, triche3) {
