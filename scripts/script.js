@@ -170,12 +170,16 @@ function affichageKanas(affichage, table, type, cheat3) {
  */
 function verify(input, kana, type, cheat1, cheat2, cheat3) {
   let divErreurs = document.getElementById("erreurs");
-  let scoreCheat = 1 + cheat1 + cheat2 + cheat3;
+  let scoreCheat = cheat1 + cheat2 + cheat3;
 
   if (input.value.toLowerCase() === kana[compteur].romaji) {
     sonWin.play();
     sonWin.volume = 0.8;
-    score += (niveau / scoreCheat);
+    if(scoreCheat === 0) {
+        score += niveau;
+    }else{
+        score += (niveau / scoreCheat);
+    }
     nbSyllabesTrouvees++;
   } else {
     sonLoose.play();
