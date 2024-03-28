@@ -14,6 +14,11 @@ function melange() {
  */
 function levelUp(table, cheat1, cheat2) {
 
+  let nbKanasDepart = document.getElementById("nbKanasDepart");
+  let majNiveau = 0;
+
+  nbKanasDepart = Number(nbKanasDepart.value);
+
   if (compteur >= table.length - 1) {
     sonUp.play();
     sonUp.volume = (volume.value / 10);
@@ -22,7 +27,9 @@ function levelUp(table, cheat1, cheat2) {
     if (pv <= 2 && pv > 0 && cheat2 === 1) {
       pv++;
     }
-    switch (niveau) {
+    majNiveau = nbKanasDepart + niveau;
+    console.log(majNiveau)
+    switch (majNiveau) {
       case 2:
         for (let i = 0; i < niveau2.length; i++) {
           table.push(niveau2[i]);
@@ -94,6 +101,7 @@ function levelUp(table, cheat1, cheat2) {
     if (cheat1 === 0) {
       melange();
     }
+    console.log(table);
   } else {
     compteur++;
   }
@@ -244,7 +252,7 @@ function verifGameOver(input, affichage, bouton) {
     bouton.disabled = true;
   }
 
-  if (niveau1.length < 1) {
+  if (niveau1.length === 0) {
     sonMort.play();
     sonMort.volume = (volume.value / 10);
     sonGOver.play();
@@ -617,16 +625,93 @@ function majObjectifs() {
   if(lettrePo.compteur === 3) {
     spanObjectifPo.style.color = "green";
   }
-
+    
 }
+
+function changeTable(value) {
+  
+  switch(value) {
+    case 1:
+      for (let i = 0; i < niveau2.length; i++) {
+          niveau1.push(niveau2[i]);
+      }
+      break;
+    case 2:
+      for (let i = 0; i < niveau3.length; i++) {
+        niveau1.push(niveau3[i]);
+      }
+      break;
+    case 3:
+      for(let i = 0; i < niveau4.length; i++) {
+        niveau1.push(niveau4[i]);
+      }
+      break;
+    case 4:
+      for(let i = 0; i < niveau5.length; i++) {
+        niveau1.push(niveau5[i]);
+      }
+      break;
+    case 5:
+      for(let i = 0; i < niveau6.length; i++) {
+        niveau1.push(niveau6[i]);
+      }
+      break;
+    case 6:
+      for(let i = 0; i < niveau7.length; i++) {
+        niveau1.push(niveau7[i]);
+      }
+      break;
+    case 7:
+      for(let i = 0; i < niveau8.length; i++) {
+        niveau1.push(niveau8[i]);
+      }
+      break;
+    case 8:
+      for(let i = 0; i < niveau9.length; i++) {
+        niveau1.push(niveau9[i]);
+      }
+      break;
+    case 9:
+      for(let i = 0; i < niveau10.length; i++) {
+        niveau1.push(niveau10[i]);
+      }
+      break;
+    case 10:
+      for(let i = 0; i < niveau11.length; i++) {
+        niveau1.push(niveau11[i]);
+      }
+      break;
+    case 11:
+      for(let i = 0; i < niveau12.length; i++) {
+        niveau1.push(niveau12[i]);
+      }
+      break;
+    case 12:
+      for(let i = 0; i < niveau13.length; i++) {
+        niveau1.push(niveau13[i]);
+      }
+      break;
+    case 13:
+      for(let i = 0; i < niveau14.length; i++) {
+        niveau1.push(niveau14[i]);
+      }
+      break;
+    default : 
+        for(let i = 0; i < niveau1origine.length; i++) {
+        niveau1.push(niveau1origine[i]);
+        }
+    }
+  }
 
 function jouons(tableauType, drapeau, btnValider, saisiePerso, triche1, triche2, triche3) {
   let kanaTemp = ""; // Ancien caractère affiché
 
+  console.log(niveau1.length)
   verify(saisiePerso, niveau1, tableauType, triche1, triche2, triche3);
   kanaTemp = niveau1[compteur];
   if (niveau1[compteur].compteur >= 3) {
     niveau1.splice(compteur, 1);
+    compteur--;
   }
   verifGameOver(saisiePerso, drapeau, btnValider);
   levelUp(niveau1, triche1, triche2);
@@ -656,6 +741,7 @@ function lancerJeu() {
   let btnFamille = document.getElementById("check_famille"); // Bouton pour tricher et afficher la famille du caractère
   let labelFamille = document.getElementById("label_famille")
   let famille = 0; // triche 3
+  let selectNbKanas = document.getElementById("nbKanasDepart");
 
   affichageKanas(flag, niveau1, typeTableau);
 
@@ -666,6 +752,7 @@ function lancerJeu() {
       btnApprentissage.disabled = "disabled";
       btnCoeurPlus.disabled = "disabled";
       btnFamille.disabled = "disabled";
+      selectNbKanas.disabled = "disabled";
       if (apprentissage === 1) {
         labelApprentissage.style.backgroundColor = "rgba(85, 23, 45, 0.5)"
       } else {
@@ -691,6 +778,7 @@ function lancerJeu() {
         btnApprentissage.disabled = "disabled";
         btnCoeurPlus.disabled = "disabled";
         btnFamille.disabled = "disabled";
+        selectNbKanas.disabled = "disabled";
         if (apprentissage === 1) {
           labelApprentissage.style.backgroundColor = "rgba(85, 23, 45, 0.5)"
         } else {
@@ -745,6 +833,18 @@ function lancerJeu() {
       famille = 0;
       affichageKanas(flag, niveau1, typeTableau, famille);
     }
+  })
+
+  selectNbKanas.addEventListener('change', () => {
+    niveau1.splice(0, 73);
+    for(let i = 0; i < Number(selectNbKanas.value)+1; i++) {
+      changeTable(i);
+    }
+    if(apprentissage === 0) {
+      melange();
+    }
+    affichageKanas(flag, niveau1, typeTableau, famille);
+    
   })
 
   recommencer.addEventListener("click", () => {

@@ -88,7 +88,8 @@ label {
 
 #div_debutant label,
 #label_debutant,
-#label_objectifs {
+#label_objectifs,
+select {
   font-size: 1em;
   margin-right: 20px;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
