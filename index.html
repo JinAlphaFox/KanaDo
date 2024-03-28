@@ -39,7 +39,7 @@
         Pour réussir, saisissez sur votre <strong title="Drapeau">Sashimono</strong> la syllabe correspondante au
         symbole se trouvant sur le sien. Puis <strong>Frappez !</strong><br>Vous n'avez le droit qu'à trois erreurs,
         après tout, un samouraï possède trois cœurs.<br>Let's fight!</p>
-      <div>
+      <div><!-- section objectifs -->
         <label for="check_objectifs" id="label_objectifs">Objectifs</label>
         <input type="checkbox" id="check_objectifs" name="check_objectifs">
         <div id="div_objectifs">
@@ -127,13 +127,30 @@
               class="inter_objectif objectifPe">Pe : 0 / 3</span> | <span class="inter_objectif objectifPo">Po : 0 /
               3</span>
           </span>
-        </div>
+        </div><!-- section options -->
         <label for="check_debutant" id="label_debutant">Options</label>
         <input type="checkbox" id="check_debutant" name="check_debutant">
         <div id="div_debutant">
           <span class="inter_debutant">
-            <label for="volume">Volume</label>
+            Volume : 
             <input type="range" id="volume" name="volume" min="0" max="10" />
+          </span>
+          <span class="inter_debutant">Commencer avec les <select name="nbKanasDepart" id="nbKanasDepart">
+              <option value="0" selected>5</option>
+              <option value="1">10</option>
+              <option value="2">15</option>
+              <option value="3">20</option>
+              <option value="4">25</option>
+              <option value="5">30</option>
+              <option value="6">35</option>
+              <option value="7">40</option>
+              <option value="8">46</option>
+              <option value="9">51</option>
+              <option value="10">56</option>
+              <option value="11">61</option>
+              <option value="12">66</option>
+              <option value="13">71</option>
+          </select> premiers kanas.
           </span>
           <span>
             <input type="checkbox" id="check_apprentissage" name="check_apprentissage">
