@@ -627,6 +627,7 @@ function jouons(tableauType, drapeau, btnValider, saisiePerso, triche1, triche2,
   kanaTemp = niveau1[compteur];
   if (niveau1[compteur].compteur >= 3) {
     niveau1.splice(compteur, 1);
+    compteur--;
   }
   verifGameOver(saisiePerso, drapeau, btnValider);
   levelUp(niveau1, triche1, triche2);
