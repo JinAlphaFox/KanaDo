@@ -1,0 +1,430 @@
+{
+    "syllabes": [  
+    { 
+        "hiragana": "あ",
+        "katakana": "ア",
+        "romaji": "a",
+        "secondaire": "a"
+    },
+    {
+        "hiragana": "い",
+        "katakana": "イ",
+        "romaji": "i",
+        "secondaire": "i"
+    },
+    {
+        "hiragana": "う",
+        "katakana": "ウ",
+        "romaji": "u",
+        "secondaire": "u"
+    },
+    {
+        "hiragana": "え",
+        "katakana": "エ",
+        "romaji": "e",
+        "secondaire": "e"
+    },
+    {
+        "hiragana": "お",
+        "katakana": "オ",
+        "romaji": "o",
+        "secondaire": "o"
+    },
+    {
+        "hiragana": "か",
+        "katakana": "カ",
+        "romaji": "ka",
+        "secondaire": "ka"
+    },
+    {
+        "hiragana": "き",
+        "katakana": "キ",
+        "romaji": "ki",
+        "secondaire": "ki"
+    },
+    {
+        "hiragana": "く",
+        "katakana": "ク",
+        "romaji": "ku",
+        "secondaire": "ku"
+    },
+    {
+        "hiragana": "け",
+        "katakana": "ケ",
+        "romaji": "ke",
+        "secondaire": "ke"
+    },
+    {
+        "hiragana": "こ",
+        "katakana": "コ",
+        "romaji": "ko",
+        "secondaire": "ko"
+    },
+    {
+        "hiragana": "さ",
+        "katakana": "サ",
+        "romaji": "sa",
+        "secondaire": "sa"
+    },
+    {
+        "hiragana": "し",
+        "katakana": "シ",
+        "romaji": "shi",
+        "secondaire": "shi"
+    },
+    {
+        "hiragana": "す",
+        "katakana": "ス",
+        "romaji": "su",
+        "secondaire": "su"
+    },
+    {
+        "hiragana": "せ",
+        "katakana": "セ",
+        "romaji": "se",
+        "secondaire": "se"
+    },
+    {
+        "hiragana": "そ",
+        "katakana": "ソ",
+        "romaji": "so",
+        "secondaire": "so"
+    },
+    { 
+        "hiragana": "た",
+        "katakana": "タ",
+        "romaji": "ta",
+        "secondaire": "ta"
+    },
+    { 
+        "hiragana": "ち",
+        "katakana": "チ",
+        "romaji": "chi",
+        "secondaire": "chi" 
+    },
+    { 
+        "hiragana": "つ", 
+        "katakana": "ツ", 
+        "romaji": "tsu", 
+        "secondaire": "tsu"
+    },
+    { 
+        "hiragana": "て", 
+        "katakana": "テ", 
+        "romaji": "te", 
+        "secondaire": "te"
+    },
+    { 
+        "hiragana": "と", 
+        "katakana": "ト", 
+        "romaji": "to", 
+        "secondaire": "to"
+    },
+    { 
+        "hiragana": "な", 
+        "katakana": "ナ", 
+        "romaji": "na", 
+        "secondaire": "na"
+    },
+    { 
+        "hiragana": "に", 
+        "katakana": "ニ", 
+        "romaji": "ni", 
+        "secondaire": "ni"
+    },
+    { 
+        "hiragana": "ぬ", 
+        "katakana": "ヌ", 
+        "romaji": "nu", 
+        "secondaire": "nu"
+    },
+    { 
+        "hiragana": "ね", 
+        "katakana": "ネ", 
+        "romaji": "ne", 
+        "secondaire": "ne"
+    },
+    { 
+        "hiragana": "の", 
+        "katakana": "ノ", 
+        "romaji": "no", 
+        "secondaire": "no"
+    },
+    { 
+        "hiragana": "は", 
+        "katakana": "ハ", 
+        "romaji": "ha", 
+        "secondaire": "wa"
+    },
+    { 
+        "hiragana": "ひ", 
+        "katakana": "ヒ", 
+        "romaji": "hi", 
+        "secondaire": "hi"
+    },
+    { 
+        "hiragana": "ふ", 
+        "katakana": "フ", 
+        "romaji": "fu", 
+        "secondaire": "fu"
+    },
+    { 
+        "hiragana": "へ", 
+        "katakana": "ヘ", 
+        "romaji": "he", 
+        "secondaire": "he"
+    },
+    { 
+        "hiragana": "ほ", 
+        "katakana": "ホ", 
+        "romaji": "ho", 
+        "secondaire": "ho"
+    },
+    { 
+        "hiragana": "ま", 
+        "katakana": "マ", 
+        "romaji": "ma", 
+        "secondaire": "ma"
+    },
+    { 
+        "hiragana": "み", 
+        "katakana": "ミ", 
+        "romaji": "mi", 
+        "secondaire": "mi"
+    },
+    { 
+        "hiragana": "む", 
+        "katakana": "ム", 
+        "romaji": "mu", 
+        "secondaire": "mu"
+    },
+    { 
+        "hiragana": "め", 
+        "katakana": "メ", 
+        "romaji": "me", 
+        "secondaire": "me"
+    },
+    { 
+        "hiragana": "も", 
+        "katakana": "モ", 
+        "romaji": "mo", 
+        "secondaire": "mo"
+    },
+    { 
+        "hiragana": "ら", 
+        "katakana": "ラ", 
+        "romaji": "ra", 
+        "secondaire": "ra"
+    },
+    { 
+        "hiragana": "り", 
+        "katakana": "リ", 
+        "romaji": "ri", 
+        "secondaire": "ri"
+    },
+    { 
+        "hiragana": "る", 
+        "katakana": "ル", 
+        "romaji": "ru", 
+        "secondaire": "ru"
+    },
+    { 
+        "hiragana": "れ", 
+        "katakana": "レ", 
+        "romaji": "re", 
+        "secondaire": "re"
+    },
+    { 
+        "hiragana": "ろ", 
+        "katakana": "ロ", 
+        "romaji": "ro", 
+        "secondaire": "ro"
+    },
+    { 
+        "hiragana": "や", 
+        "katakana": "ヤ", 
+        "romaji": "ya", 
+        "secondaire": "ya"
+    },
+    { 
+        "hiragana": "ゆ", 
+        "katakana": "ユ", 
+        "romaji": "yu", 
+        "secondaire": "yu"
+    },
+    { 
+        "hiragana": "ょ", 
+        "katakana": "ヨ", 
+        "romaji": "yo", 
+        "secondaire": "yo"
+    },
+    { 
+        "hiragana": "わ", 
+        "katakana": "ワ", 
+        "romaji": "wa", 
+        "secondaire": "wa"
+    },
+    { 
+        "hiragana": "を", 
+        "katakana": "ヲ", 
+        "romaji": "wo", 
+        "secondaire": "o"
+    },
+    { 
+        "hiragana": "ん", 
+        "katakana": "ン", 
+        "romaji": "n", 
+        "secondaire": "n"
+    },
+    { 
+        "hiragana": "が", 
+        "katakana": "ガ", 
+        "romaji": "ga", 
+        "secondaire": "ga"
+    },
+    { 
+        "hiragana": "ぎ", 
+        "katakana": "ギ", 
+        "romaji": "gi", 
+        "secondaire": "gi"
+    },
+    { 
+        "hiragana": "ぐ", 
+        "katakana": "グ", 
+        "romaji": "gu", 
+        "secondaire": "gu"
+    },
+    { 
+        "hiragana": "げ", 
+        "katakana": "ゲ", 
+        "romaji": "ge", 
+        "secondaire": "ge"
+    },
+    { 
+        "hiragana": "ご", 
+        "katakana": "ゴ", 
+        "romaji": "go", 
+        "secondaire": "go"
+    },
+    { 
+        "hiragana": "ざ", 
+        "katakana": "ザ", 
+        "romaji": "za", 
+        "secondaire": "za"
+    },
+    { 
+        "hiragana": "じ", 
+        "katakana": "ji", 
+        "romaji": "ji", 
+        "secondaire": "ji"
+    },
+    { 
+        "hiragana": "ず", 
+        "katakana": "ズ", 
+        "romaji": "zu", 
+        "secondaire": "zu"
+    },
+    { 
+        "hiragana": "ぜ", 
+        "katakana": "ゼ", 
+        "romaji": "ze", 
+        "secondaire": "ze"
+    },
+    { 
+        "hiragana": "ぞ", 
+        "katakana": "ゾ", 
+        "romaji": "zo", 
+        "secondaire": "zo"
+    },
+    { 
+        "hiragana": "だ", 
+        "katakana": "ダ", 
+        "romaji": "da", 
+        "secondaire": "da"
+    },
+    { 
+        "hiragana": "ぢ", 
+        "katakana": "ヂ", 
+        "romaji": "ji", 
+        "secondaire": "ji"
+    },
+    { 
+        "hiragana": "づ", 
+        "katakana": "ヅ", 
+        "romaji": "zu", 
+        "secondaire": "zu"
+    },
+    { 
+        "hiragana": "で", 
+        "katakana": "デ", 
+        "romaji": "de", 
+        "secondaire": "de"
+    },
+    { 
+        "hiragana": "ど", 
+        "katakana": "ド", 
+        "romaji": "do", 
+        "secondaire": "do"
+    },
+    { 
+        "hiragana": "ば", 
+        "katakana": "バ", 
+        "romaji": "ba", 
+        "secondaire": "ba"
+    },
+    { 
+        "hiragana": "び", 
+        "katakana": "ビ", 
+        "romaji": "bi", 
+        "secondaire": "bi"
+    },
+    { 
+        "hiragana": "ぶ", 
+        "katakana": "ブ", 
+        "romaji": "bu", 
+        "secondaire": "bu"
+    },
+    { 
+        "hiragana": "べ", 
+        "katakana": "ベ", 
+        "romaji": "be", 
+        "secondaire": "be"
+    },
+    { 
+        "hiragana": "ぼ", 
+        "katakana": "ボ", 
+        "romaji": "bo", 
+        "secondaire": "bo"
+    },
+    { 
+        "hiragana": "ぱ", 
+        "katakana": "パ", 
+        "romaji": "pa", 
+        "secondaire": "pa"
+    },
+    { 
+        "hiragana": "ぴ", 
+        "katakana": "ピ", 
+        "romaji": "pi", 
+        "secondaire": "pi"
+    },
+    { 
+        "hiragana": "ぷ", 
+        "katakana": "プ", 
+        "romaji": "pu", 
+        "secondaire": "pu"
+    },
+    { 
+        "hiragana": "ぺ", 
+        "katakana": "ペ", 
+        "romaji": "pe", 
+        "secondaire": "pe"
+    },
+    { 
+        "hiragana": "ぽ", 
+        "katakana": "ポ", 
+        "romaji": "po", 
+        "secondaire": "po"
+    }
+    ]
+}
